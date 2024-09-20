@@ -47,7 +47,6 @@ def handle_client(conn, addr):</br>
         print(f"Connection closed by {addr}")</br>
         conn.close()</br>
 
-# Main loop to accept connections</br>
 try:</br>
     while True:</br>
         # Accept a new connection</br>
